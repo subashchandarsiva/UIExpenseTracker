@@ -1,0 +1,21 @@
+.filter{
+    padding: 10px;
+}
+
+.filter_control{
+    display: flex;
+    /* margin: 0.5 rem; */
+  justify-content: space-between;
+}
+
+.filter_control label{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.filter_control select{
+    font:inherit;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 0.5rem 3rem;
+}

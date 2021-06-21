@@ -1,0 +1,32 @@
+.complete_date{
+    display: flex;
+    border: 2px solid #d76363;
+    border-radius: 12px;
+    width: 5.5rem;
+    height: 5.5rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(147, 246, 227);
+    color: darkblue;
+    box-shadow: 1px 1px 1px red;
+}
+
+.complete_date:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 15px red;
+}
+
+.month{
+    font-weight: bolder;
+    font-size: 0.75rem;
+}
+
+.year{
+    font-size: 0.75rem;
+}
+
+.day{
+    font-weight: 700;
+    font-size: 2rem;
+}
