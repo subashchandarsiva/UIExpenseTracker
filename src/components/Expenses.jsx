@@ -4,6 +4,7 @@ import Card from './Card'
 import {useState} from 'react'
 import ExpenseFilter from './ExpenseFilter'
 import ExpenseList from './ExpenseList';
+import ExpenesChart from './ExpensesChart';
 const Expenses = (props) => {
     console.log(props.expenses)
     
@@ -23,7 +24,7 @@ const Expenses = (props) => {
                 // console.log(expense.date.getFullYear())
                 return <ExpenseItem key={expense.id} title={expense.title} amount={expense.amount} date={expense.date} />
             })} */}
-
+            <ExpenesChart expenses={filteredexpenses}/>
             <ExpenseList filteredexpenses={filteredexpenses}/>
             
             
